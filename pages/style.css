@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+.pageTitle{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.nav, .nav-item, .nav-link{
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+  color: darkgoldenrod;
+}
