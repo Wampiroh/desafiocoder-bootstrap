@@ -3,14 +3,36 @@
   padding: 0;
   box-sizing: border-box;
 }
-.pageTitle{
+body{
+  background-color: darkgrey;
+  background-repeat: repeat;
+}
+/* Page title */
+h1, .pageTitle{
   display: flex;
   justify-content: center;
   padding-top: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
 }
+/* Nav bar */
 .nav, .nav-item, .nav-link{
   display: flex;
-  padding: 15px;
+  padding: 10px;
   justify-content: space-around;
   color: darkgoldenrod;
+  font-size: large;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
 }
+/* Video index */
+div, iframe {
+  width: 560px;
+  height: 315px;
+  margin: 0 auto;
+}
+iframe {
+  display: block;
+  border-style:none;
+}
+/* Bio */
