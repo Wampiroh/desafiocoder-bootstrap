@@ -36,3 +36,12 @@ iframe {
   border-style:none;
 }
 /* Bio */
+
+/* Gear */
+
+/* .gearcols, .row, .col, .card, .card-img-top, .card-body, .card-title, .card-text{
+  display: flexbox;
+  justify-content: space-around;
+  justify-items: center;
+  margin: 10px;
+} */
