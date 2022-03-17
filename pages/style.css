@@ -36,9 +36,3 @@ iframe {
   border-style:none;
 }
 /* Bio */
-.biotext{
-  padding: 10px;
-  justify-content: flex-start;
-  font-family: 'Inter', sans-serif;
-  font-weight: 300;
-}
