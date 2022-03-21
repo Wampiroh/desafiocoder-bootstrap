@@ -39,9 +39,12 @@ iframe {
 
 /* Gear */
 
-/* .gearcols, .row, .col, .card, .card-img-top, .card-body, .card-title, .card-text{
-  display: flexbox;
-  justify-content: space-around;
+.container-fluid, .row{
+  display: flex;
+  justify-content: center;
   justify-items: center;
-  margin: 10px;
-} */
+}
+.card, .card-img-top{
+  justify-content: center;
+  align-items: center;
+}
