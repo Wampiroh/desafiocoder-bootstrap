@@ -40,11 +40,18 @@ iframe {
 /* Gear */
 
 .container-fluid, .row{
-  display: flex;
+  display: flexbox;
   justify-content: center;
   justify-items: center;
+  width: auto;
 }
 .card, .card-img-top{
   justify-content: center;
   align-items: center;
+}
+.jensgear{
+  gap: 20px;
+}
+.tomasgear{
+  padding-top: 18rem;
 }
