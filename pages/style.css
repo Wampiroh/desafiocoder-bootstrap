@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: darkgrey;
+  background-color: rgb(179, 179, 179);
   background-repeat: repeat;
 }
 /* Page title */
@@ -20,7 +20,7 @@ h1, .pageTitle{
   display: flex;
   padding: 10px;
   justify-content: space-around;
-  color: darkgoldenrod;
+  color: #b8860b;
   font-size: large;
   font-family: 'Inter', sans-serif;
   font-weight: 300;

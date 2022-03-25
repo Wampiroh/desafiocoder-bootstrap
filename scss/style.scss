@@ -1,0 +1,23 @@
+$backgroudColor: rgb(179, 179, 179);
+$textColor: #b8860b;
+$pfontType: 'Inter', sans-serif;
+$pfontWeight: 300;
+
+body{
+    background-color: $backgroudColor;
+}
+
+header{
+    font-family: $pfontType;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 700;
+}
+div.navBar{
+    display: flex;
+    padding: 10px;
+    font-family: $pfontType;
+    font-size: $pfontWeight;
+    justify-content: center;
+}
